@@ -32,7 +32,7 @@ fn main() -> Result<(), eframe::Error> {
                 ui.text_edit_singleline(&mut name).labelled_by(name_label.id);
                 });
             ui.horizontal(|ui| {
-                let directory_label = ui.label("directory: ");
+                let directory_label = ui.label("directory:         ");
                 ui.text_edit_singleline(&mut directory_var).labelled_by(directory_label.id);
             });   
             // UI for checkboxes
