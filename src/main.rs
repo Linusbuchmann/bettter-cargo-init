@@ -1,3 +1,6 @@
+#![windows_subsystem = "windows"] 
+
+
 use eframe::egui::{self, debug_text::print};
 use std::fs;
 use std::path::Path;
